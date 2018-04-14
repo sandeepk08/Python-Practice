@@ -1,0 +1,13 @@
+#Python Program to Count the Number of Digits in a Number.
+#Problem Description : The program takes the number and prints the number of digits in the number.
+# Code Using Function.
+def CountDigitInNumber(number):
+	 count = 0
+	 while (number>0):
+	 	
+	 	number = number//10
+	 	count = count+1
+	 return count
+number  = 1234
+count = CountDigitInNumber(number)
+print("number of digit in this given number is :",count) 
